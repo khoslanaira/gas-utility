@@ -1,0 +1,9 @@
+{% extends 'services/base.html' %}
+
+{% block content %}
+    <h2>Account Information</h2>
+    <p><strong>Username:</strong> {{ customer.user.username }}</p>
+    <p><strong>Email:</strong> {{ customer.user.email }}</p>
+    <p><strong>Phone Number:</strong> {{ customer.phone_number }}</p>
+    <p><strong>Address:</strong> {{ customer.address }}</p>
+{% endblock %}
